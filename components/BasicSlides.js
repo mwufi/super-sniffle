@@ -6,15 +6,17 @@ function Slide({
   dark = false,
   center = false,
   left = false,
+  animate = false,
 }) {
   return (
     <div
       className={cx(
-        'flex min-h-screen w-full flex-1 flex-col items-center justify-center rounded bg-white px-10 py-20 md:py-32 font-medium antialiased md:px-40 space-y-8',
+        'flex min-h-screen w-full flex-1 flex-col justify-center rounded bg-white px-10 py-20 md:py-32 font-medium antialiased md:px-40 space-y-8',
         classes,
         dark && 'bg-black text-white',
         center && 'items-center text-center',
-        left && 'items-start'
+        left && 'items-start text-left',
+        animate && 'animate-in fade-in zoom-in duration-700'
       )}
     >
       {children}
@@ -48,7 +50,9 @@ function SubHeading({ children }) {
 
 function Text({ children }) {
   return (
-    <div className="text-xl md:my-6 md:text-2xl lg:text-3xl">{children}</div>
+    <div className="pb-2 text-xl md:my-6 md:text-2xl lg:text-3xl">
+      {children}
+    </div>
   )
 }
 
