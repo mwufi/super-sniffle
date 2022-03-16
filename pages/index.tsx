@@ -26,6 +26,7 @@ const credits = (
         {author.name}
       </a>
     </Text>
+    <div>I still need to refine this idea.</div>
     <button onClick={() => alert('not implemented yet!')}>
       like this presentation
     </button>
@@ -99,13 +100,22 @@ const Home: NextPage = () => {
       <Slide dark left>
         <div className="uppercase">problem</div>
         <SubHeading>
-          Governments are <GradientText>invisible</GradientText>
+          Participating in "government" is <GradientText>hard</GradientText>
         </SubHeading>
         <Text>
-          <li>Huge challenges, like homelessness or fiscal shortfalls</li>
-          <li>Most people don't care</li>
-          <li>Good decisions are rarely recognized by the public</li>
-          <li>Why? Bad UX.</li>
+          <li>
+            <GradientText>Lack of visibility</GradientText> - Most people don't
+            care. Good decisions are rarely recognized by the public
+          </li>
+          <li>
+            <GradientText>UX</GradientText> - High friction, and no P2P
+            information besides... city council meetings
+          </li>
+        </Text>
+        <Text>
+          Meanwhile, <GradientText>challenges loom</GradientText>, like
+          homelessness or fiscal shortfalls. But no one is responsible for
+          fixing these issues
         </Text>
       </Slide>
 
@@ -179,7 +189,9 @@ const Home: NextPage = () => {
             src="https://media-exp1.licdn.com/dms/image/C5603AQFEXJ5-mjkhPA/profile-displayphoto-shrink_200_200/0/1595178999211?e=1652313600&v=beta&t=c3W4SSbe8SOtwK5rkMyKckt6egn7eyRG0VtNtHDuEI8"
           />
           <Text>
-            Zen Tang - <GradientText>Tech</GradientText>.
+            Zen Tang - <GradientText>Technologist</GradientText>. Excited about the
+            metaverse - but think it will be defined by DAOs, better online
+            collaboration models, and integration of payments and identity. Will be working on clarifying the idea, talking to customers, and building the MVP.
           </Text>
         </div>
         <div className="flex gap-8">
@@ -198,6 +210,7 @@ const Home: NextPage = () => {
         <Text>May - June: Talk to government customers</Text>
         <Text>June - Aug: Build MVP</Text>
       </Slide>
+      {credits}
     </div>
   )
 }
