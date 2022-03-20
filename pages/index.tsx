@@ -9,6 +9,8 @@ import {
   Text,
   Image,
 } from '../components/BasicSlides'
+import { getViews, registerView } from '../lib/views'
+import ViewCounter from '../components/ViewCounter'
 
 const author = {
   profile: 'https://www.linkedin.com/in/zen-tang-492720136/',
@@ -90,6 +92,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Slide center>
+        <ViewCounter slug="home" />
         <Heading>AlloGov</Heading>
         <SubHeading>
           One-click <GradientText>government</GradientText>
