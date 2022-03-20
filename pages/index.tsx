@@ -142,29 +142,32 @@ const Home: NextPage = () => {
           Ubiquitous. <GradientText>CityPass.</GradientText>
         </SubHeading>
         <SubHeading>
-          <Text>Local events, discussions</Text>
           <Text>
-            A <GradientText>cash account</GradientText> that allows municipal
-            governments to budget up to $10 per citizen, per month.
+            Citywide push. Real time forums. E-voting. Events. And more.
+          </Text>
+          <Text>
+            A <GradientText>cash distribution app</GradientText> that allows
+            municipal governments to budget up to $500 per citizen, per month
           </Text>
           <Text>
             A secure <GradientText>extensible identity</GradientText>
           </Text>
         </SubHeading>
-        <div>or, Metamask meets WeChat?</div>
       </Slide>
 
       <Slide dark>
         <div className="uppercase">market size</div>
-        <SubHeading>Govtech is a growing market</SubHeading>
-        <Text>Rough estimate:</Text>
+        <SubHeading>
+          <GradientText>Metamask meets WeChat</GradientText>
+        </SubHeading>
+        <Text>Powering the next generation of govtech</Text>
         <Text>
           <GradientText>subscriptions</GradientText> - $600M/year - $5/mo * 10M
           people{' '}
         </Text>
         <Text>
-          <GradientText>payments</GradientText> - $100M/year - 1% * 100M people
-          * $100/year{' '}
+          <GradientText>payments</GradientText> - $1B/year - 1% * 100M people *
+          $1000/year{' '}
         </Text>
         <Text>
           <GradientText>software</GradientText> - $600M/year - $5000/mo * 10k
@@ -189,9 +192,11 @@ const Home: NextPage = () => {
             src="https://media-exp1.licdn.com/dms/image/C5603AQFEXJ5-mjkhPA/profile-displayphoto-shrink_200_200/0/1595178999211?e=1652313600&v=beta&t=c3W4SSbe8SOtwK5rkMyKckt6egn7eyRG0VtNtHDuEI8"
           />
           <Text>
-            Zen Tang - <GradientText>Technologist</GradientText>. Excited about the
-            metaverse - but think it will be defined by DAOs, better online
-            collaboration models, and integration of payments and identity. Will be working on clarifying the idea, talking to customers, and building the MVP.
+            Zen Tang - <GradientText>Technologist</GradientText>. Excited about
+            the metaverse - but think it will be defined by DAOs, better online
+            collaboration models, and integration of payments and identity. Will
+            be working on clarifying the idea, talking to customers, and
+            building the MVP.
           </Text>
         </div>
         <div className="flex gap-8">
